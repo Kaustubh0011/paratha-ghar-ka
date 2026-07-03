@@ -29,9 +29,9 @@ export const menu = [
   },
   {
     id: 5,
-    name: "Aloo Pyaaz",
+    name: "Aloo Pyaaz Paratha",
     price: 159,
-    image: "/menu/aloo pyaaz paratha.jpg",
+    image: "/menu/Aloo Pyaaz Paratha.jpg",
     description: "Classic dhaba-style potato & onion paratha."
   },
   {

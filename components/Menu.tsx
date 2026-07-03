@@ -7,7 +7,7 @@ import { Flame, Leaf } from "lucide-react";
 
 export default function Menu() {
   return (
-    <section id="menu" className="py-24 bg-[#fff8ef]">
+    <section id="menu" className="py-12 md:py-20 lg:py-24 bg-[#fff8ef]">
 
       <div className="container">
 
@@ -17,7 +17,7 @@ export default function Menu() {
             Our Menu
           </p>
 
-          <h2 className="text-5xl font-black mt-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-black mt-4">
             Freshly Prepared Everyday
           </h2>
 
@@ -28,7 +28,7 @@ export default function Menu() {
 
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-20">
 
           {menu.map((item, index) => (
 

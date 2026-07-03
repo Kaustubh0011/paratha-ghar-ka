@@ -6,7 +6,7 @@ export default function Story() {
   return (
     <section id="about" className="py-24 bg-white">
 
-      <div className="container grid lg:grid-cols-2 gap-16 items-center">
+      <div className="container grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 
         <motion.div
           initial={{opacity:0,x:-60}}
@@ -18,7 +18,8 @@ export default function Story() {
             Our Story
           </span>
 
-          <h2 className="text-5xl font-black mt-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl
+           font-black mt-4">
             Homemade Food,
             Student Dream
           </h2>

@@ -11,18 +11,18 @@ export default function DiscountBanner() {
           initial={{ opacity: 0, scale: .9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: .6 }}
-          className="rounded-[30px] bg-gradient-to-r from-orange-600 via-amber-500 to-yellow-400 p-10 text-white shadow-2xl flex flex-col lg:flex-row justify-between items-center gap-6"
+          className="rounded-[30px] bg-gradient-to-r from-orange-600 via-amber-500 to-yellow-400 p-6 md:p-10text-white shadow-2xl flex flex-col lg:flex-row justify-between items-center gap-6"
         >
 
           <div>
 
-            <h2 className="text-5xl font-black">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-black">
 
               🎉 35% OFF
 
             </h2>
 
-            <p className="text-xl mt-4">
+            <p className="text-base md:text-lg lg:text-xl mt-4">
 
               First Order Special Offer
 

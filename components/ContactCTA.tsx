@@ -6,15 +6,15 @@ return(
 
 <div className="container">
 
-<div className="rounded-[40px] bg-[#8B4513] text-white text-center p-20">
+<div className="rounded-[40px] bg-[#8B4513] text-white text-center p-8 md:p-12 lg:p-20">
 
-<h2 className="text-5xl font-black">
+<h2 className="text-3xl md:text-4xl lg:text-5xl font-black">
 
 Ready to Order?
 
 </h2>
 
-<p className="mt-6 text-xl">
+<p className="mt-6 text-base md:text-lg lg:text-xl">
 
 Fresh Homemade Food Delivered With Love ❤️
 
